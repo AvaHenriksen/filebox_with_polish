@@ -1,8 +1,48 @@
 /* Additional styles */
 
 body {
+  background-color: rgb(251, 251, 251);
+  color: rgb(68, 68, 68);
   font-family: "Open Sans";
 }
+
+/*Adjust coloring of navbar*/
+.navbar {
+  background-color: white;
+}
+/*Adjust coloring of navbar links*/
+.navbar a {
+  color: rgb(0, 126, 229) !important;
+}
+/*Weight, size of headers*/
+h1,h2 {
+  font-weight: 300;
+  line-height: 125%;
+}
+/*Weight, size of regular text */
+p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+/*Adjust background of get started form*/
+.get-started-now {
+  background-color: white;
+}
+
+/*Footer font style*/
+footer h4 {
+  color: rgb(153, 153, 153);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+/*Footer list style*/
+footer li {
+  color: rgb(119, 119, 119);
+  margin-bottom: 10px;
+}
+
 
 /* My standard vertical spacing classes */
 
